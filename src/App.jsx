@@ -77,7 +77,7 @@ const App = () => {
         <div className="row">
           <div className="fs-5 col-md-8">
             <p>
-              Hi! I'm Valeria Nevárez, a Biotechnology Engineer with a growing
+              Hi! I'm Valeria Nevarez, a Biotechnology Engineer with a growing
               passion for software development. I've been learning and building
               projects using HTML, CSS, JavaScript, React, Python, and
               Git/GitHub. I'm excited to start my career as a software engineer,
@@ -133,7 +133,7 @@ const App = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/ValeriaNevarez"
+                  href="https://github.com/ValeriaNevarez?tab=repositories"
                   rel="noopener"
                   target="_blank"
                 >
