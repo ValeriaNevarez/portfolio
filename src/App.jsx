@@ -2,34 +2,29 @@ import "./App.css";
 
 const Certificates = () => {
   const certificates_array = [
-    { link: "certificates/html.pdf", title: "Introduction to HTML" },
     {
       link: "certificates/introduction_cloud_computing_codecademy.pdf",
       title: "Codecademy - Intro to cloud computing",
     },
-    { link: "certificates/introduction_css.pdf", title: "CSS" },
     {
       link: "certificates/introduction_to_cloud_computing.pdf",
-      title: "Coursera - Intro to cloud computing",
+      title: "IBM - Intro to cloud computing",
+    },
+    {
+      link: "certificates/react_introduction.pdf",
+      title: "React Introduction",
     },
     {
       link: "certificates/introduction_to_web_development_css_html_javascript.pdf",
-      title: "Intro to web development with CSS, HTML & Javascript",
+      title: "Introduction to Web Development with CSS, HTML & Javascript",
     },
+    { link: "certificates/html.pdf", title: "Introduction to HTML" },
+    { link: "certificates/introduction_css.pdf", title: "CSS" },
     { link: "certificates/javascript_introduction.pdf", title: "Javascript" },
+    { link: "certificates/github.pdf", title: "Github" },
     {
       link: "certificates/javascript_unit_testing.pdf",
-      title: "Javascript unit testing",
-    },
-    { link: "certificates/python_basics.pdf", title: "Python basics" },
-    { link: "certificates/python_beginner.pdf", title: "Python Beginner" },
-    {
-      link: "certificates/python_data_science_pandas.pdf",
-      title: "Python data science with pandas",
-    },
-    {
-      link: "certificates/python_data_structures.pdf",
-      title: "Python data structures",
+      title: "Javascript Unit Testing",
     },
     {
       link: "certificates/python_intermediate_data_science_pandas.pdf",
@@ -40,13 +35,19 @@ const Certificates = () => {
       title: "Python Object Oriented Programming",
     },
     {
-      link: "certificates/python_introduction_data_science.pdf",
-      title: "Python data science",
+      link: "certificates/python_data_science_pandas.pdf",
+      title: "Python Data Science with Pandas",
     },
     {
-      link: "certificates/react_introduction.pdf",
-      title: "React Introduction",
+      link: "certificates/python_data_structures.pdf",
+      title: "Python Data Structures",
     },
+    {
+      link: "certificates/python_introduction_data_science.pdf",
+      title: "Python Data Science",
+    },
+    { link: "certificates/python_basics.pdf", title: "Python Basics" },
+    { link: "certificates/python_beginner.pdf", title: "Python Beginner" },
   ];
   return (
     <ul className="list-unstyled ps-0">
@@ -67,34 +68,57 @@ const App = () => {
   return (
     <div className="col-lg-8 mx-auto p-4 py-md-5">
       <header className="d-flex align-items-center pb-3 mb-5 border-bottom">
-        <a
-          href="/"
-          className="d-flex align-items-center text-body-emphasis text-decoration-none"
-        >
-          <h1 className="text-body-emphasis">Valeria Nevarez</h1>
-        </a>
+        <h1 className="text-body-emphasis">Valeria Nevarez</h1>
       </header>
       <main>
-        <h2 className="text-body-emphasis">My portfolio</h2>
-        <p className="fs-5 col-md-8">
-          Quickly and easily get started with Bootstrap's compiled,
-          production-ready files with this barebones example featuring some
-          basic HTML and helpful links. Download all our examples to get
-          started.
-        </p>
-        <div className="mb-5">
-          <a href="../examples" className="btn btn-primary btn-lg px-4">
-            Download examples
-          </a>
+        <h2 className="text-body-emphasis">
+          My portfolio <i class="bi bi-layout-text-sidebar-reverse"></i>{" "}
+        </h2>
+        <div className="row">
+          <div className="fs-5 col-md-8">
+            <p>
+              Hi! I'm Valeria Nevárez, a Biotechnology Engineer with a growing
+              passion for software development. I've been learning and building
+              projects using HTML, CSS, JavaScript, React, Python, and
+              Git/GitHub. I'm excited to start my career as a software engineer,
+              where I can keep learning, build meaningful applications, and
+              contribute to real-world tech solutions. Welcome to my portfolio!
+            </p>
+            <div className="mb-5">
+              <a
+                href="../examples"
+                className="btn btn-primary btn-lg px-4 me-5"
+              >
+                My CV
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/valeria-nevarez/?locale=en_US"
+                className="btn btn-primary btn-lg px-4"
+                target="_blank"
+              >
+                Linked <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <p className="fs-5 col-md-4">
+            <img src="images/pc_plants.png" className="img-fluid"></img>
+          </p>
         </div>
-        <hr className="col-3 col-md-2 mb-5" />
+
+        <hr className="" />
         <div className="row g-5">
           <div className="col-md-6">
-            <h2 className="text-body-emphasis">Projects</h2>
+            <h2 className="text-body-emphasis">
+              Projects <i class="bi bi-lightbulb"></i>
+            </h2>
             <p>
-              Ready to go beyond the starter template? Check out these open
-              source projects that you can quickly duplicate to a new GitHub
-              repository.
+              In my latest internship, I worked on Remote Switch. This is a web
+              application that allows businesses to remotely control the power
+              of electronic devices through phone calls and text messages. I
+              mainly used React, Vercel, and the Twilio API for the web app, and
+              Python for scripting automated calls and emails.
             </p>
             <ul className="list-unstyled ps-0">
               <li>
@@ -106,13 +130,24 @@ const App = () => {
                   Remote switch
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/ValeriaNevarez"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  See other projects in my Github
+                </a>
+              </li>
             </ul>
           </div>
           <div className="col-md-6">
-            <h2 className="text-body-emphasis">Certificates</h2>
+            <h2 className="text-body-emphasis">
+              Certificates <i class="bi bi-magic"></i>{" "}
+            </h2>
             <p>
-              Read more detailed instructions and documentation on using or
-              contributing to Bootstrap.
+              Here are some of the certificates I've earned while exploring and
+              developing my skills in programming:
             </p>
             <Certificates></Certificates>
           </div>
@@ -120,6 +155,6 @@ const App = () => {
       </main>
     </div>
   );
-}
+};
 
 export default App;
