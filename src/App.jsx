@@ -86,7 +86,8 @@ const App = () => {
             </p>
             <div className="mb-5">
               <a
-                href="../examples"
+                href="cv.pdf"
+                target="_blank"
                 className="btn btn-primary btn-lg px-4 me-5"
               >
                 My CV
