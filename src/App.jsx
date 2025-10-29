@@ -54,7 +54,7 @@ const Certificates = () => {
       {certificates_array.map((item, index) => {
         return (
           <li key={index}>
-            <a className="icon-link mb-1" href={item.link} target="_blank">
+            <a className="icon-link mb-1 fs-5" href={item.link} target="_blank">
               {item.title}
             </a>
           </li>
@@ -77,12 +77,27 @@ const App = () => {
         <div className="row">
           <div className="fs-5 col-md-8">
             <p>
-              Hi! I'm Valeria Nevarez, a Biotechnology Engineer with a growing
-              passion for software development. I've been learning and building
-              projects using HTML, CSS, JavaScript, React, Python, and
-              Git/GitHub. I'm excited to start my career as a software engineer,
-              where I can keep learning, build meaningful applications, and
-              contribute to real-world tech solutions. Welcome to my portfolio!
+              Hi! I'm Valeria Nevarez, a Biotechnology Engineer turned Software
+              Developer passionate about creating impactful tech solutions.
+              <br />
+              <br />
+              I’ve gained hands-on experience at Cruisebound, where I built
+              full-stack features using React, Next.js, Tailwind CSS, and Spring
+              Boot, and collaborated in an Agile environment with GitHub,
+              Datadog, and Jira.
+              <br />
+              <br />
+              I also had the experience of developing Remote Switch at Cirotec
+              Automation, a web app that lets businesses remotely control
+              devices through calls and texts using React, Vercel, Twilio API,
+              and Python.
+              <br />
+              <br />
+              I’m always excited to learn, grow, and build meaningful
+              applications.
+              <br />
+              <br />
+              Welcome to my portfolio!
             </p>
             <div className="mb-5">
               <a
@@ -109,49 +124,69 @@ const App = () => {
         </div>
 
         <hr className="" />
-        <div className="row g-5">
-          <div className="col-md-6">
-            <h2 className="text-body-emphasis">
-              Projects <i class="bi bi-lightbulb"></i>
-            </h2>
-            <p>
-              In my latest internship, I worked on Remote Switch. This is a web
-              application that allows businesses to remotely control the power
-              of electronic devices through phone calls and text messages. I
-              mainly used React, Vercel, and the Twilio API for the web app, and
-              Python for scripting automated calls and emails.
-            </p>
-            <ul className="list-unstyled ps-0">
-              <li>
-                <a
-                  href="https://github.com/ValeriaNevarez/remote_switch"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  Remote switch
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/ValeriaNevarez?tab=repositories"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  See other projects in my Github
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-6">
-            <h2 className="text-body-emphasis">
-              Certificates <i class="bi bi-magic"></i>{" "}
-            </h2>
-            <p>
-              Here are some of the certificates I've earned while exploring and
-              developing my skills in programming:
-            </p>
-            <Certificates></Certificates>
-          </div>
+        <div className="mb-5">
+          <h2 className="text-body-emphasis">
+            Cruisebound{" "}
+            <img
+              src="images/cruisebound_favicon.ico"
+              className="img-fluid"
+            ></img>
+          </h2>
+          <p className="fs-5">
+            At Cruisebound, I contributed to building and maintaining full-stack
+            features that improved platform performance and user experience. I
+            developed responsive UIs with React, Next.js, Tailwind CSS, and
+            HTML, and implemented backend services using Java/Kotlin (Spring
+            Boot) for scalable, reliable integrations. I also used Datadog for
+            monitoring, GitHub for version control, and followed Agile
+            methodologies with Jira to manage project workflows.
+          </p>
+        </div>
+
+        <div className="mb-5">
+          <h2 className="text-body-emphasis">
+            Remote Switch <i class="bi bi-lightbulb"></i>
+          </h2>
+          <p className="fs-5">
+            In my internship with Cirotec Automation, I worked on Remote Switch.
+            This is a web application that allows businesses to remotely control
+            the power of electronic devices through phone calls and text
+            messages. I mainly used React, Vercel, and the Twilio API for the
+            web app, and Python for scripting automated calls and emails.
+          </p>
+          <ul className="list-unstyled ps-0">
+            <li>
+              <a
+                href="https://github.com/ValeriaNevarez/remote_switch"
+                rel="noopener"
+                target="_blank"
+                className="fs-5"
+              >
+                Remote switch
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/ValeriaNevarez?tab=repositories"
+                rel="noopener"
+                target="_blank"
+                className="fs-5"
+              >
+                See other projects in my Github
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="mb-5">
+          <h2 className="text-body-emphasis">
+            Certificates <i class="bi bi-magic"></i>{" "}
+          </h2>
+          <p className="fs-5">
+            Here are some of the certificates I've earned while exploring and
+            developing my skills in programming:
+          </p>
+          <Certificates></Certificates>
         </div>
       </main>
     </div>
