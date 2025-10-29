@@ -141,6 +141,18 @@ const App = () => {
             monitoring, GitHub for version control, and followed Agile
             methodologies with Jira to manage project workflows.
           </p>
+          <ul className="list-unstyled ps-0">
+            <li>
+              <a
+                href="https://cruisebound.com"
+                rel="noopener"
+                target="_blank"
+                className="fs-5"
+              >
+                Cruisebound
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="mb-5">
