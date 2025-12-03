@@ -14,6 +14,9 @@ const Certificates = () => {
       link: "certificates/react_introduction.pdf",
       title: "React Introduction",
     },
+    {link:"certificates/react_forms.pdf",
+      title: "React Forms"
+    },
     {
       link: "certificates/introduction_to_web_development_css_html_javascript.pdf",
       title: "Introduction to Web Development with CSS, HTML & Javascript",
