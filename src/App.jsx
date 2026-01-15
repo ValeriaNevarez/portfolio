@@ -175,21 +175,17 @@ const App = () => {
               >
                 Github repository
               </a>{" "}
-              for this project.
             </p>
             <p className="fs-5">
-              Link to the project:
-            </p>
-            <li>
+              Link to the project:{" "}
               <a
                 href="https://cruisebound-intern-engineer-assessment.vercel.app/"
                 rel="noopener"
                 target="_blank"
-                className="fs-5"
               >
                 Cruisebound assessment
               </a>
-            </li>
+            </p>
 
           </ul>
         </div>
