@@ -4,11 +4,11 @@ const Certificates = () => {
   const certificates_array = [
     {
       link: "certificates/kotlin_functions_and_classes.pdf",
-      title: "Kotlin Functions and Classes"
+      title: "Kotlin Functions and Classes",
     },
     {
       link: "certificates/kotlin_introduction.pdf",
-      title: "Kotlin Introduction"
+      title: "Kotlin Introduction",
     },
     {
       link: "certificates/introduction_cloud_computing_codecademy.pdf",
@@ -167,6 +167,7 @@ const App = () => {
               This was my intern engineer assesment. The UI was designed to
               match the specifications in the instructions.
               <br />
+              <br />
               More information about this project can be found at my{" "}
               <a
                 href="https://github.com/ValeriaNevarez/cruisebound_intern_engineer_assessment"
@@ -175,18 +176,16 @@ const App = () => {
               >
                 Github repository
               </a>{" "}
-            </p>
-            <p className="fs-5">
-              Link to the project:{" "}
+              (
               <a
                 href="https://cruisebound-intern-engineer-assessment.vercel.app/"
                 rel="noopener"
                 target="_blank"
               >
-                Cruisebound assessment
+                Live website
               </a>
+              ).
             </p>
-
           </ul>
         </div>
 
@@ -212,6 +211,12 @@ const App = () => {
                 Remote switch
               </a>
             </li>
+          </ul>
+        </div>
+
+        <div className="mb-5">
+          <h2 className="text-body-emphasis">Other projects</h2>
+          <ul className="list-unstyled ps-0">
             <li>
               <a
                 href="https://github.com/ValeriaNevarez?tab=repositories"
