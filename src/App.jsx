@@ -146,9 +146,12 @@ const App = () => {
             features that improved platform performance and user experience. I
             developed responsive UIs with React, Next.js, Tailwind CSS, and
             HTML, and implemented backend services using Java/Kotlin (Spring
-            Boot) for scalable, reliable integrations. I also used Datadog for
-            monitoring, GitHub for version control, and followed Agile
-            methodologies with Jira to manage project workflows.
+            Boot) for scalable, reliable integrations.
+            <br />
+            <br />I integrated Cursor into my development process to enhance
+            productivity through AI-assisted coding and automated debugging. I
+            also used Datadog for monitoring, GitHub for version control, and
+            followed Agile methodologies with Jira to manage project workflows.
           </p>
           <ul className="list-unstyled ps-0">
             <li>
