@@ -84,16 +84,16 @@ const App = () => {
               Developer passionate about creating impactful tech solutions.
               <br />
               <br />
-              I’ve gained hands-on experience at Cruisebound, where I built
-              full-stack features using React, Next.js, Tailwind CSS, and Spring
-              Boot, and collaborated in an Agile environment with GitHub,
-              Datadog, and Jira.
+              I build full-stack projects with an engineering mindset: clear
+              requirements, solid architecture, reliable integrations, and
+              maintainable code. My Remote Switch project is a web app that
+              lets businesses remotely control devices through calls and texts
+              using React, Vercel, the Twilio API, and Python.
               <br />
               <br />
-              I also had the experience of developing Remote Switch at Cirotec
-              Automation, a web app that lets businesses remotely control
-              devices through calls and texts using React, Vercel, Twilio API,
-              and Python.
+              My certifications in cloud, web development, testing, and Python
+              back up my hands-on work and show continuous growth in software
+              engineering fundamentals.
               <br />
               <br />
               I’m always excited to learn, grow, and build meaningful
@@ -104,7 +104,7 @@ const App = () => {
             </p>
             <div className="mb-5">
               <a
-                href="cv.pdf"
+                href="Cv%20Maria%20Nevarez.docx.pdf"
                 target="_blank"
                 className="btn btn-primary btn-lg px-4 me-5"
               >
@@ -126,23 +126,18 @@ const App = () => {
           </p>
         </div>
 
-        <hr className="" />
         <div className="mb-5">
           <h2 className="text-body-emphasis">
-            Cruisebound{" "}
+            Cruisebound Assessment{" "}
             <img
               src="images/cruisebound_favicon.ico"
               className="img-fluid"
             ></img>
           </h2>
           <p className="fs-5">
-            At Cruisebound, I contributed to building and maintaining full-stack
-            features that improved platform performance and user experience. I
-            developed responsive UIs with React, Next.js, Tailwind CSS, and
-            HTML, and implemented backend services using Java/Kotlin (Spring
-            Boot) for scalable, reliable integrations. I also used Datadog for
-            monitoring, GitHub for version control, and followed Agile
-            methodologies with Jira to manage project workflows.
+            I completed a Cruisebound assessment that evaluated my engineering
+            approach to full-stack work, including React, Next.js, Tailwind CSS,
+            and Spring Boot, plus modern tooling and workflows.
           </p>
           <ul className="list-unstyled ps-0">
             <li>
@@ -163,11 +158,11 @@ const App = () => {
             Remote Switch <i class="bi bi-lightbulb"></i>
           </h2>
           <p className="fs-5">
-            In my internship with Cirotec Automation, I worked on Remote Switch.
-            This is a web application that allows businesses to remotely control
-            the power of electronic devices through phone calls and text
-            messages. I mainly used React, Vercel, and the Twilio API for the
-            web app, and Python for scripting automated calls and emails.
+            Remote Switch is a personal project I designed and built. This web
+            application lets businesses remotely control the power of electronic
+            devices through phone calls and text messages. I engineered the
+            frontend in React, deployed with Vercel, integrated Twilio APIs, and
+            automated calls and emails with Python.
           </p>
           <ul className="list-unstyled ps-0">
             <li>
@@ -198,8 +193,8 @@ const App = () => {
             Certificates <i class="bi bi-magic"></i>{" "}
           </h2>
           <p className="fs-5">
-            Here are some of the certificates I've earned while exploring and
-            developing my skills in programming:
+            These certificates reinforce my software engineering foundation:
+            cloud concepts, web development, testing practices, and Python.
           </p>
           <Certificates></Certificates>
         </div>
