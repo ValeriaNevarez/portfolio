@@ -87,7 +87,7 @@ const App = () => {
           <div className="fs-5 col-md-8">
             <p>
               Hi! I'm Valeria Nevarez, a Biotechnology Engineer turned Software
-              Developer passionate about creating impactful tech solutions.
+              Engineer passionate about creating impactful tech solutions.
               <br />
               <br />
               I build full-stack projects with an engineering mindset: clear
