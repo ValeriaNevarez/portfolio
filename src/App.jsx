@@ -3,6 +3,14 @@ import "./App.css";
 const Certificates = () => {
   const certificates_array = [
     {
+      link: "certificates/kotlin_functions_and_classes.pdf",
+      title: "Kotlin Functions and Classes",
+    },
+    {
+      link: "certificates/kotlin_introduction.pdf",
+      title: "Kotlin Introduction",
+    },
+    {
       link: "certificates/introduction_cloud_computing_codecademy.pdf",
       title: "Codecademy - Intro to cloud computing",
     },
@@ -14,9 +22,7 @@ const Certificates = () => {
       link: "certificates/react_introduction.pdf",
       title: "React Introduction",
     },
-    {link:"certificates/react_forms.pdf",
-      title: "React Forms"
-    },
+    { link: "certificates/react_forms.pdf", title: "React Forms" },
     {
       link: "certificates/introduction_to_web_development_css_html_javascript.pdf",
       title: "Introduction to Web Development with CSS, HTML & Javascript",
@@ -150,6 +156,31 @@ const App = () => {
                 Cruisebound
               </a>
             </li>
+            <br></br>
+            <h4>Cruisebound Intern Engineer Assessment</h4>
+            <p className="fs-5">
+              This was my intern engineer assesment. The UI was designed to
+              match the specifications in the instructions.
+              <br />
+              <br />
+              More information about this project can be found at my{" "}
+              <a
+                href="https://github.com/ValeriaNevarez/cruisebound_intern_engineer_assessment"
+                rel="noopener"
+                target="_blank"
+              >
+                Github repository
+              </a>{" "}
+              (
+              <a
+                href="https://cruisebound-intern-engineer-assessment.vercel.app/"
+                rel="noopener"
+                target="_blank"
+              >
+                Live website
+              </a>
+              ).
+            </p>
           </ul>
         </div>
 
@@ -175,6 +206,12 @@ const App = () => {
                 Remote switch
               </a>
             </li>
+          </ul>
+        </div>
+
+        <div className="mb-5">
+          <h2 className="text-body-emphasis">Other projects</h2>
+          <ul className="list-unstyled ps-0">
             <li>
               <a
                 href="https://github.com/ValeriaNevarez?tab=repositories"
